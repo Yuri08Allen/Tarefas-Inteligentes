@@ -1,0 +1,22 @@
+* {
+    margin: 0.1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgba(168, 168, 197, 0.986);
+    color: rgb(28, 28, 105);
+}
