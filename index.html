@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- CONTAINER PRINCIPAL -->
+  <main class="container">
+
+    <!-- TÍTULO -->
+    <header class="topo">
+      <h1>TaskFlow</h1>
+      <p>Organize sua rotina de forma inteligente</p>
+    </header>
+
+    <!-- ÁREA DE ADICIONAR TAREFA -->
+    <section class="nova-tarefa">
+
+      <input 
+        type="text" 
+        placeholder="Digite uma nova tarefa..."
+      >
+
+      <button>Adicionar</button>
+
+    </section>
+
+    <!-- FILTROS -->
+    <section class="filtros">
+
+      <button>Todas</button>
+      <button>Pendentes</button>
+      <button>Concluídas</button>
+
+    </section>
+
+    <!-- BARRA DE PROGRESSO -->
+    <section class="progresso">
+
+      <h3>Progresso</h3>
+
+      <div class="barra">
+        <div class="preenchimento"></div>
+      </div>
+
+      <p>0% concluído</p>
+
+    </section>
+
+    <!-- LISTA DE TAREFAS -->
+    <section class="lista-tarefas">
+
+      <!-- TAREFA -->
+      <div class="tarefa">
+
+        <div class="conteudo-tarefa">
+          <input type="checkbox">
+
+          <span>Estudar JavaScript</span>
+        </div>
+
+        <button class="deletar">🗑</button>
+
+      </div>
+
+      <!-- TAREFA -->
+      <div class="tarefa">
+
+        <div class="conteudo-tarefa">
+          <input type="checkbox">
+
+          <span>Treinar HTML e CSS</span>
+        </div>
+
+        <button class="deletar">🗑</button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
